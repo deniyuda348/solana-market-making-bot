@@ -41,6 +41,7 @@ SOLANA_RPC_URL=https://api.mainnet-beta.solana.com
 
 ## Project Structure
 
+```
 backend/
 ├── src/
 │ ├── api/ # API route handlers
@@ -50,16 +51,16 @@ backend/
 │ ├── config.rs # Configuration management
 │ ├── db.rs # Database connection
 │ └── main.rs # Application entry point
-
+```
 ## API Endpoints
-
+```
 - `/api/auth` - Authentication routes
 - `/api/wallets` - Wallet management
 - `/api/trading` - Trading strategy operations
 - `/api/orderbook` - Order book monitoring
 - `/api/alerts` - Price alert management
 - `/api/settings` - User settings
-
+```
 ## Building and Running
 
 1. Install dependencies:
@@ -100,8 +101,6 @@ cargo clippy
 5. Create a Pull Request
 
 ## License
-
-[Add your license information here]
 
 
 
